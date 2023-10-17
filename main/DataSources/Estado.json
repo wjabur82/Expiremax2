@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_estados",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_estado",
+    "MaxGetRowsCount": 500,
+    "Name": "Estado",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_capital": "Capital",
+      "new_cr409_new_experiencias_Estado_new_estado": "Experiências",
+      "new_estado": "Estado (new_estado)",
+      "new_estado_AsyncOperations": "Trabalhos do Sistema",
+      "new_estado_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "new_estado_DuplicateBaseRecord": "Registros Duplicados (new_estado_DuplicateBaseRecord)",
+      "new_estado_DuplicateMatchingRecord": "Registros Duplicados (new_estado_DuplicateMatchingRecord)",
+      "new_estado_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "new_estado_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "new_estado_ProcessSession": "Sessões de Processo",
+      "new_estado_SyncErrors": "Erros de Sincronização",
+      "new_estadoid": "Estado (new_estadoid)",
+      "new_name": "Name",
+      "new_regiao": "Região",
+      "new_sigla": "Sigla",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Estado",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Estado (Modos de exibição)",
+    "Name": "_new_estado_views",
+    "RelatedEntityName": "Estado",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "260c1070-2f5f-4c6d-a87b-11c842069c25": "Exibição de Localização Avançada de Estado",
+      "384e770e-c973-4d1d-9424-1044519e9e51": "Exibição de Consulta de Estado",
+      "c62d414c-9433-4f41-80ea-cad5dee6d8fd": "Estado Inativos(as)",
+      "c8201bfa-cf00-4046-b77f-08ec70a0d780": "Estado Ativos(as)",
+      "ee28a99c-ac8f-48da-bc0f-d696f01936a0": "Exibição Associada de Estado"
+    }
+  },
+  {
+    "DisplayName": "Status (Estado)",
+    "Name": "new_estado_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Estado"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Estado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Estado)",
+    "Name": "new_estado_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Estado"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Estado",
+    "Type": "OptionSetInfo"
+  }
+]

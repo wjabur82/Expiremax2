@@ -1,0 +1,60 @@
+dashboard_profissionais As screen:
+
+    Icon1_1 As icon.Undo:
+        Icon: =Icon.Undo
+        OnSelect: =Navigate(dashboard_experiencias)
+        X: =520
+        Y: =61
+        ZIndex: =2
+
+    Icon2_1 As icon.Home:
+        Icon: =Icon.Home
+        OnSelect: =Navigate(tela_inicial)
+        X: =52
+        Y: =61
+        ZIndex: =3
+
+    Button1 As button:
+        Height: =70
+        OnSelect: =
+        Size: =24
+        Text: ="Agrupar"
+        Visible: =
+        Width: =280
+        X: =184
+        Y: =200
+        ZIndex: =4
+
+    CompositePieChart1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+        Title3 As label:
+            Align: =Align.Center
+            Text: ="Profissionais"
+            Width: =532
+            X: =52
+            Y: =125
+            ZIndex: =6
+
+        PieChart1 As pieChart:
+            Height: =356
+            Items: =ShowColumns(Profissionais,"new_idade","new_nome","new_sexo")
+            Width: =532
+            X: =52
+            Y: =125
+            ZIndex: =7
+
+        Legend1 As legend:
+            Height: =651
+            ItemColorSet: =PieChart1.ItemColorSet
+            Items: =PieChart1.SeriesLabels
+            Size: =16
+            Width: =532
+            X: =52
+            Y: =453
+            ZIndex: =8
+

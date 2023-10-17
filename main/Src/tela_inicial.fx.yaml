@@ -1,0 +1,67 @@
+tela_inicial As screen:
+
+    Button5 As button:
+        Height: =70
+        OnSelect: |
+            =Navigate(list_profissionais)
+        Size: =24
+        Text: ="Profissionais"
+        Width: =280
+        X: =59
+        Y: =496
+        ZIndex: =1
+
+    Button6 As button:
+        Height: =70
+        OnSelect: |
+            =Navigate(list_experiencias)
+        Size: =24
+        Text: ="Experiências"
+        Width: =280
+        X: =59
+        Y: =774
+        ZIndex: =2
+
+    Button7 As button:
+        Height: =94
+        OnSelect: =Navigate(dashboard_profissionais)
+        Size: =24
+        Text: |-
+            ="Dashboard Profissionais
+            "
+        Width: =280
+        X: =339
+        Y: =628
+        ZIndex: =3
+
+    Button8 As button:
+        Height: =94
+        OnSelect: =Navigate(dashboard_experiencias)
+        Size: =24
+        Text: |-
+            ="Dashboard Experiências
+            "
+        Width: =280
+        X: =339
+        Y: =891
+        ZIndex: =4
+
+    Image4 As image:
+        Height: =202
+        Image: ='experiencia (1)'
+        Width: =182
+        X: =225
+        Y: =195
+        ZIndex: =5
+
+    Label1 As label:
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Height: =155
+        Size: =40
+        Text: ="ExpireMax"
+        Width: =286
+        X: =173
+        Y: =40
+        ZIndex: =6
+

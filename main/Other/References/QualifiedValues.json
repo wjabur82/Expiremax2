@@ -1,0 +1,25 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr409_new_profissionais_forms",
+      "Namespace": "Profissionais (Formulários)",
+      "Values": {
+        "Informações": "e6a7b1d4-71cf-4dd1-8146-ff1d076b643e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr409_new_experiencias_forms",
+      "Namespace": "Experiências (Formulários)",
+      "Values": {
+        "Informações": "975bd291-7728-4807-bff8-da7f06f4b614"
+      }
+    },
+    {
+      "Kind": "default.cds_new_estado_forms",
+      "Namespace": "Estado (Formulários)",
+      "Values": {
+        "Informações": "45f2aa3f-717e-4709-8964-c8b95ee61c76"
+      }
+    }
+  ]
+}
