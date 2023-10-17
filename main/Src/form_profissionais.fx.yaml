@@ -23,7 +23,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Check
-        OnSelect: =SubmitForm(form_profissionais)
+        OnSelect: =SubmitForm(EditForm1)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
