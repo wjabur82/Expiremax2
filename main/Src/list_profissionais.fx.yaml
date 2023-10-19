@@ -96,7 +96,7 @@
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =Parent.Height - Self.Y
-        Items: =Profissionais
+        Items: =Filter(Profissionais, 'Profissionais (Modos de exibição)'.'Profissionais Ativos(as)')
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         ShowScrollbar: =false
