@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr409_new_experiencias",
+    "MaxGetRowsCount": 500,
     "Name": "Experiências",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",
