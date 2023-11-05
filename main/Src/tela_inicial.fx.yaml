@@ -69,11 +69,11 @@ tela_inicial As screen:
         BorderStyle: =BorderStyle.None
         Default: =User().FullName
         FontWeight: =FontWeight.Bold
-        Height: =119
+        Height: =81
         Size: =22
         Width: =250
-        X: =354
-        Y: =239
+        X: =341
+        Y: =237
         ZIndex: =7
 
     Label3 As label:
