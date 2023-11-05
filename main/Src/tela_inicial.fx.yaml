@@ -86,3 +86,10 @@ tela_inicial As screen:
         Y: =222
         ZIndex: =8
 
+    Icon3 As icon.Help:
+        Icon: =Icon.Help
+        OnSelect: =Navigate(tutorial_app)
+        X: =118
+        Y: =985
+        ZIndex: =9
+
