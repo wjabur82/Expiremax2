@@ -27,6 +27,21 @@
     "OverridableProperties": {},
     "Version": "2.2.0"
   },
+  "Chatbot (versão preliminar)": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Chatbot",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Chatbot",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Chatbot (versão preliminar)",
+    "Version": "0.1.8"
+  },
   "circle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

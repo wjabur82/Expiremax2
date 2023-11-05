@@ -1,0 +1,12 @@
+chatbot As screen:
+
+    "Chatbot1 As 'Chatbot (versão preliminar)'":
+        DisplayMode: =DisplayMode.Edit
+        EnvironmentId: ="Default-95d3f7c5-7521-481e-a4ff-53c9e22c8fa8"
+        Height: =1057
+        SchemaName: ="new_bot_70ee923d77c340bc83e1e46d9d63f17a"
+        Width: =557
+        X: =40
+        Y: =40
+        ZIndex: =1
+
