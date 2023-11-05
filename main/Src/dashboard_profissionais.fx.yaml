@@ -47,6 +47,7 @@ dashboard_profissionais As screen:
 
     Button2 As button:
         Height: =70
+        OnSelect: =Navigate(tela_inicial)
         Size: =24
         Text: ="Voltar"
         Width: =280
