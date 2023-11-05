@@ -88,6 +88,7 @@ tela_inicial As screen:
 
     Icon4 As icon.People:
         Icon: =Icon.People
+        OnSelect: =Navigate(chatbot)
         X: =167
         Y: =895
         ZIndex: =10
