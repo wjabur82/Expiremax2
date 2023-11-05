@@ -198,7 +198,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TutorialScreenIconNext.ID%",
       "Name": "iconNext1",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -388,7 +388,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TutorialScreenIconBack.ID%",
       "Name": "iconPrev1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -583,7 +583,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LabelSkip1",
-      "ParentIndex": 0,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -876,7 +876,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TutorialScreenTutorialImage.ID%",
       "Name": "TutorialImage1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1088,7 +1088,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TutorialScreenDataGallery.ID%",
       "Name": "TutorialNavigator1",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1278,7 +1278,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TutorialScreenTutorialText.ID%",
       "Name": "TutorialText1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

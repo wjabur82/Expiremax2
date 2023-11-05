@@ -57,7 +57,7 @@ tela_inicial As screen:
     Label1 As label:
         Font: =Font.Arial
         FontWeight: =FontWeight.Bold
-        Height: =155
+        Height: =95
         Size: =40
         Text: ="ExpireMax"
         Width: =286
