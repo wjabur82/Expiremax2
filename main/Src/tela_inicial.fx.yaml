@@ -50,7 +50,7 @@ tela_inicial As screen:
         Height: =202
         Image: ='experiencia (1)'
         Width: =182
-        X: =225
+        X: =59
         Y: =195
         ZIndex: =5
 
@@ -64,4 +64,25 @@ tela_inicial As screen:
         X: =173
         Y: =40
         ZIndex: =6
+
+    TextInput1 As text:
+        BorderStyle: =BorderStyle.None
+        Default: =User().FullName
+        FontWeight: =FontWeight.Bold
+        Height: =119
+        Size: =22
+        Width: =250
+        X: =354
+        Y: =278
+        ZIndex: =7
+
+    Label3 As label:
+        Align: =Align.Center
+        Height: =67
+        Size: =21
+        Text: ="Olá, Seja Bem vindo!"
+        Width: =322
+        X: =303
+        Y: =222
+        ZIndex: =8
 
