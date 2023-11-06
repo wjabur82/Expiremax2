@@ -18,7 +18,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
-        OnSelect: =
+        OnSelect: =Navigate(tela_inicial)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -49,7 +49,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Add
-        OnSelect: =
+        OnSelect: =Navigate(form_profissionais);NewForm(EditForm1)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
