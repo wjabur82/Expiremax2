@@ -18,7 +18,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
-        OnSelect: =Navigate(form_profissionais)
+        OnSelect: =
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
