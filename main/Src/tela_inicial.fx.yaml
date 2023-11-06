@@ -55,6 +55,7 @@ tela_inicial As screen:
         ZIndex: =5
 
     Label1 As label:
+        Color: =RGBA(56, 96, 178, 1)
         Font: =Font.Arial
         FontWeight: =FontWeight.Bold
         Height: =95
