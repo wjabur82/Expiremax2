@@ -14,12 +14,12 @@ chatbot As screen:
         DisplayMode: =DisplayMode.Edit
         EnvironmentId: ="Default-95d3f7c5-7521-481e-a4ff-53c9e22c8fa8"
         HeaderLabel: ="Fale Conosco"
-        Height: =291
+        Height: =596
         SchemaName: ="cr409_expireMax"
         Visible: =true
-        Width: =436
-        X: =108
-        Y: =435
+        Width: =549
+        X: =48
+        Y: =339
         ZIndex: =3
 
     Image5 As image:
