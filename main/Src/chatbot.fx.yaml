@@ -1,22 +1,30 @@
 chatbot As screen:
 
-    "Chatbot1 As 'Chatbot (versão preliminar)'":
-        DisplayMode: =DisplayMode.Edit
-        EnvironmentId: ="Default-95d3f7c5-7521-481e-a4ff-53c9e22c8fa8"
-        Height: =963
-        SchemaName: ="new_bot_70ee923d77c340bc83e1e46d9d63f17a"
-        Width: =557
-        X: =40
-        Y: =134
-        ZIndex: =1
-
     Button4 As button:
         Height: =70
         OnSelect: =Navigate(tela_inicial)
         Size: =24
         Text: ="Voltar"
         Width: =280
-        X: =166
-        Y: =40
+        X: =186
+        Y: =1001
         ZIndex: =2
+
+    "Chatbot1 As 'Chatbot (versão preliminar)'":
+        DisplayMode: =DisplayMode.Edit
+        EnvironmentId: ="Default-95d3f7c5-7521-481e-a4ff-53c9e22c8fa8"
+        Height: =589
+        SchemaName: ="cr409_expireMax"
+        Width: =503
+        X: =74
+        Y: =372
+        ZIndex: =3
+
+    Image5 As image:
+        Height: =239
+        Image: =fale_conosco
+        Width: =246
+        X: =186
+        Y: =60
+        ZIndex: =4
 
