@@ -13,6 +13,7 @@ chatbot As screen:
     "Chatbot1 As 'Chatbot (versão preliminar)'":
         DisplayMode: =DisplayMode.Edit
         EnvironmentId: ="Default-95d3f7c5-7521-481e-a4ff-53c9e22c8fa8"
+        HeaderLabel: ="Fale Conosco"
         Height: =291
         SchemaName: ="cr409_expireMax"
         Visible: =true
